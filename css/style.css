@@ -1,0 +1,674 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+width: 100vw;
+background-color: #f5f5f5;
+
+}
+
+a:focus {
+outline: none;
+}
+button:focus, input:focus {
+outline: none;
+}
+
+.header {
+  height: 450px;
+  background-image:linear-gradient( 45deg, rgb(1,105,180) 0%, #663399 50%, rgb(167,43,143) 100%);
+  opacity: 0.902;
+ 
+
+}
+.header-navigation {
+padding-top: 62px;
+}
+
+.logo-pages {
+  display:block;
+text-align: center;
+}
+.logo {
+display:inline-block;
+
+}
+.logo img {
+width: 27px;
+}
+.logo h3 {
+padding-left: 12px;
+transform: translateY(-30%);
+display:inline-block;
+font-size: 17px;
+font-family: "Montserrat";
+font-weight: 600;
+color: #fff;
+text-transform: uppercase;
+}
+.logo b {
+display: inline-block;
+font-weight: 300;
+}
+
+.pages {
+display: inline-block;
+padding-left: 145px;
+}
+.pages ul li {
+display: inline-block;
+font-size: 10px;
+font-family: "Montserrat";
+font-weight: 400;
+transition: all 0.5s;
+border-bottom:1px solid transparent;
+margin-left: 1rem;
+margin-right: 1rem;
+padding-bottom:5px;
+text-transform: uppercase;
+
+}
+.pages a{
+text-decoration: none;
+color: #fff;  
+}
+.pages ul li:hover {
+border-bottom:1px solid #fff;
+}
+.text {
+padding-left: 334px;
+padding-top: 83px;
+}
+.text h5 {
+
+  font-size: 20px;
+  font-family: "Raleway";
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.563;
+}
+.text b {
+display: inline-block;
+font-weight: 700;
+}
+
+.boxs {
+text-align: center;
+}
+.box {
+text-align: center;
+margin-top: 60px;
+display: inline-block;
+margin-right: 1%;
+margin-left: -4px;
+height: 265px;
+width:216px; 
+background-color: #ffffff;
+font-family: "Raleway";
+z-index: 99;
+}
+
+.box img {
+padding-top: 30px;
+height: 80px;
+width: 50px;
+}
+.box h6 {
+  padding-top: 13px;
+  font-size: 15px;
+  color: rgb(102, 102, 102);
+  font-weight: 700;
+  line-height: 1.133;
+
+}
+
+.box p {
+  padding-top: 23px;
+  font-size: 10px;
+  color: rgb(135, 135, 135);
+  line-height: 1.667;
+}
+.design {
+margin-left: 4px;
+}
+.building {
+margin-right: 19px;
+}
+.card-btn {
+padding-top: 27px;
+display: inline-block;
+}
+.add-btn {
+  font-family: "Raleway";
+  padding: 0.35rem 1.1rem;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(204, 204, 204);
+ background-color: #ffffff;
+  color:#aeaeae;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+
+.add-btn:hover {
+background: #0169b4;  
+color: #fff;               
+border:none;
+box-shadow:0 0 15px #5188b1;
+}
+
+
+.hello-replace {
+
+text-align: center;
+}
+.hello-text {
+
+  position: relative;
+margin-left: -52px;
+text-align: left;
+padding-top: 250px;
+display: inline-block;
+height: 231px;
+width: auto;
+font-family: "Raleway";
+transform: translateY(-10%);
+}
+.hello-text h4 {
+  font-size: 27px;
+  color: rgb(1, 105, 180);
+}
+.hello-text p {
+padding-top: 28px;
+  font-size: 11px;
+  font-weight: 500;
+  color: rgb(102, 102, 102);
+  line-height: 1.667;
+}
+.hello-text .add-btn {
+background-color: #f5f5f5;
+}
+.hello-text .add-btn:hover {
+ background: #0169b4;  
+color: #fff;                /*работает*/
+border:none;
+box-shadow:0 0 15px #5188b1;
+}
+
+.image-replace {
+
+display: inline-block;
+padding-left: 40px;
+}
+.image-replace img {
+  transform: translateX(11%);
+width: 290px;
+height: 220px;
+}
+.projects {
+padding-top: 80px;
+display: inline-block;
+}
+.project {
+display: inline-block;
+margin-left: 320px;
+}
+.projects h4 {
+font-family: "Raleway";
+font-size: 27px;
+color: rgb(1, 105, 180);
+}
+.images {
+padding-top: 40px;
+display: inline-block;
+
+}
+.images img {
+width: 25%;
+height: 220px;
+margin-left: -4px;
+}
+
+
+ .solutions {
+display: inline-block;
+padding-top: 80px;
+padding-bottom: 70px;
+margin-left: 320px;
+font-family: "Raleway";
+ }
+ .solutions h4 {
+font-size: 27px;
+color: rgb(1, 105, 180);
+}
+.boxc-1 {
+padding-top: 32px;
+
+}
+.safety {
+  display: inline-block;
+}
+.enviromental {
+display: inline-block;
+padding-left: 150px;
+}
+.design-solutions {
+display: inline-block;
+}
+.risk {
+display: inline-block;
+padding-left: 137px;
+}
+.boxc h5 {
+padding-top: 35px; 
+color: rgb(51, 51, 51);
+font-size: 24px;
+}
+.boxc p {
+padding-top: 15px;
+  font-size: 11px;
+  color: rgb(102, 102, 102);
+  line-height: 1.667;
+}
+
+.people-say {
+background-color: #ffffff;
+width: 100%;
+height: 300px;
+}
+.says {
+font-family: "Raleway";
+display: inline-block;
+margin-left: 320px;
+height: 100%;
+width: 31%;
+}
+.say {
+
+padding-bottom:140px;
+}
+.says h4 {
+
+font-size: 27px;
+color: rgb(1, 105, 180);
+}
+
+.says p {
+
+margin-left: -11px;
+display: inline-block;
+padding-left: 10px;
+font-size: 11px;
+color: rgb(102, 102, 102);
+line-height: 1.667;
+transform:translateY(-50%);
+}
+
+.says p b{
+display: block;
+  color: #000;
+font-weight: 700;
+}
+.says .card-btn {
+transform: translateX(-100%) translateY(-46%);
+display: inline-block;
+}
+.says .add-btn {
+background-color: #fff;
+}
+.says .add-btn:hover {
+background: #0169b4;  
+color: #fff;                /*работает*/
+border:none;
+box-shadow:0 0 15px #5188b1;
+}
+.photo-block {
+height: 100%;
+width: 45%;
+padding-left: 15px;
+display: inline-block;
+background: url(..//img/aeaeae.png) no-repeat center center;
+background-size: cover;
+}
+
+.new-events {
+  text-align: center;
+font-family: "Raleway";
+line-height: 1.5;
+height: 380px;
+}
+.new-events h4 {
+margin-left: -547px;
+padding-top: 80px;
+font-size: 27px;
+color: rgb(1, 105, 180); 
+}
+.months {
+padding-top: 35px;
+display: inline-block;
+}
+.month {
+display: inline-block;
+margin-left: 22px;
+}
+.ntn {
+margin-left: 25px;
+}
+.month img {
+display: inline-block;
+width: 35px;
+height: 38px;
+}
+.month h5 {
+display: inline-block;
+text-align: left;
+padding-left: 24px;
+  font-size: 19px;
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+}
+.month p {
+text-align: left;
+  font-size: 11px;
+  font-weight: 500;
+  color: rgb(135, 135, 135);
+padding-top: 33px;
+}
+.month .card-btn {
+transform: translateX(-75%) translateY(-16%);
+display: inline-block;
+padding-top: 30px;
+}
+.month .add-btn {
+background-color: #f5f5f5;
+}
+.month .add-btn:hover {
+background: #0169b4;  
+color: #fff;                /*работает*/
+border:none;
+box-shadow:0 0 15px #5188b1;
+}
+
+.footer-end {
+height: 250px;
+position: relative;
+  background-image: -webkit-linear-gradient( -135deg, rgb(1,105,180) 0%, #5155a3 50%, rgb(167,43,143) 100%);
+  opacity: 0.902;
+  text-align: center;
+}
+.contacts {
+padding-top: 55px;
+
+}
+.contact {
+  padding-top: 5px;
+  display: inline-block;
+border-width: 2px;
+border-color: rgb(255, 255, 255);
+border-style: solid;
+border-radius: 50%;
+width: 33px;
+height: 33px;
+margin-left: 60px;
+}
+.map {
+background: url(..//img/map.png)  no-repeat center center;
+background-size: 8px;
+margin-left: 0;
+}
+.mail {
+background: url(..//img/mail.png)  no-repeat center center;
+background-size: 13px;
+
+}
+.phone-fax {
+display: inline-block;
+}
+.phone {
+background: url(..//img/phone.png)  no-repeat center center;
+background-size: 8px;
+
+}
+.fax {
+background: url(..//img/fax.png)  no-repeat center center;
+background-size: 12px;
+margin-right: 0;
+}
+.contacts p {
+  display: inline-block;
+  font-size: 8px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+padding-top: 17px;
+transform: translateX(-67%) translateY(75%);
+}
+.inets  {
+padding-top: 70px;
+
+}
+.inet img {
+width: 175px;
+transform: translateX(-13%);
+}
+
+.up-page {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+width: 75px;
+  height: 35px;
+  border-radius: 37.5px 37.5px 0 0;
+bottom: 0;
+left: 45%;
+}
+.up-page  span {
+display: block;
+  margin: 1.5px auto;
+  background-color: #a72b8f;
+  height: 2.4px;
+  width: 15px;
+}
+#buton-up span {
+ position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 0;
+}
+#buton-up span:nth-child(1) {
+transform:translateX(-25%) translateY(-50%)  rotate(45deg);
+}
+#buton-up span:nth-child(2) {
+transform:translateX(-90%) translateY(-50%)  rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  
+  .text {
+padding-left: 42px;
+}
+.project {
+display: inline-block;
+margin-left: 25px;
+}
+.solutions {
+display: inline-block;
+margin-left: 25px;
+}
+.people-say {
+height: 345px;
+}
+.says { 
+width: 45%;
+margin-left: 25px;
+}
+.photo-block  {
+height: 100%;
+width: 51%;
+}
+.says .card-btn {
+transform: translateX(238%) translateY(-45%);
+}
+.month {
+padding-left: 6px;
+margin-left: 0;
+}
+}
+@media (max-width: 1200px) {
+.text {
+padding-left: 255px;  
+}
+.say {
+padding-top: 47px;
+}
+.people-say {
+height: 345px;
+}
+.says { 
+width: 35%;
+margin-left: 255px;
+}
+.photo-block  {
+height: 100%;
+width: 43%;
+}
+.says .card-btn {
+transform: translateX(-98%) translateY(-45%);
+}
+}
+@media (max-width: 640px) {
+.pages {
+padding-left: 0;
+}
+.text {
+padding-left: 43px;
+}
+.box {
+width: 172px;
+}
+.hello-text {
+margin-left: 25px;
+}
+.image-replace img {
+transform: translateX(-5%);
+}
+.project {
+margin-left: 165px;
+}
+.solutions {
+margin-left: 165px;
+}
+.enviromental {
+padding-left: 0;
+}
+.risk{
+padding-left: 0;
+}
+.people-say {
+height: 600px;
+}
+.says {
+margin-left: 165px;
+height: 50%;
+}
+.photo-block {
+height: 50%;
+width: 100%;
+}
+.new-events h4 {
+margin-left: -154px;
+}
+.new-events {
+height: 780px;
+}
+.month {
+  display: block;
+margin-top: 10px;
+}
+.contact {
+margin-left: 0;
+}
+.inet img {
+transform: translateX(-21%);
+}
+.up-page {
+left: 36%;
+}
+@media (max-width: 480px) {
+.pages {
+padding-left: 0;
+padding-top: 5px;
+}
+.text {
+padding-left: 43px;
+}
+
+.box {
+  display: block;
+margin-left: 29%;
+width: 172px;
+}
+.hello-text {
+margin-left: 25px;
+padding-top: 960px;
+}
+.image-replace img {
+transform: translateX(-5%);
+}
+.project {
+margin-left: 74px;
+}
+.solutions {
+margin-left: 74px;
+}
+.people-say {
+height: 600px;
+}
+.says {
+height: 50%;
+}
+.photo-block {
+height: 50%;
+width: 100%;
+}
+.enviromental {
+padding-left: 0;
+}
+.risk{
+padding-left: 0;
+}
+.says {
+margin-left: 74px;
+}
+.says .card-btn {
+transform: translateX(238%) translateY(-45%);
+}
+.new-events h4 {
+margin-left: -118px;
+}
+.new-events {
+height: 780px;
+}
+.month {
+  display: block;
+margin-top: 10px;
+}
+.contact {
+margin-left: 65px;
+}
+.phone-fax {
+transform: translateY(67%) translateX(-3%);
+}
+
+}
+.inets {
+padding-top: 56px;
+}
+.up-page {
+left: 36%;
+}
+}
