@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /dev/
+
+User-agent: Yandex
+Disallow: /dev/
+Host: lp4u.ru
+
+Sitemap: http://lp4u.ru/sitemap.xml
